@@ -19,18 +19,11 @@ BBLAYERS ?= " \
     ${TOPDIR}/../sources/meta-mingw \
     ${TOPDIR}/../sources/meta-nilrt \
     ${TOPDIR}/../sources/meta-selinux \
-    ${TOPDIR}/../sources/meta-cloud-services/meta-openstack \
-    ${TOPDIR}/../sources/meta-cloud-services \
-    ${TOPDIR}/../sources/meta-mono \
     ${TOPDIR}/../sources/meta-virtualization \
     ${TOPDIR}/../sources/meta-security \
     ${TOPDIR}/../sources/meta-orgconf \
-    ${TOPDIR}/../sources/meta-sdr \
-    ${TOPDIR}/../sources/meta-java \
-    ${TOPDIR}/../sources/meta-measured \
     ${TOPDIR}/../sources/meta-qt5 \
     ${TOPDIR}/../sources/meta-qt5-extra \
-    ${TOPDIR}/../sources/meta-ivi/meta-ivi \
     "
 
 BBLAYERS_NON_REMOVABLE ?= " \
